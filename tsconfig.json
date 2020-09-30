@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES2015",
+    "noImplicitAny": false,
+    "strictNullChecks": true,
+    "strict": true,
+    "alwaysStrict": true,
+    "sourceMap": false,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "pretty": true,
+    "listFiles": true,
+    "listEmittedFiles": true,
+    "lib": [
+      "ESNext"
+    ],
+    "typeRoots": [
+      "./node_modules/@types"
+    ]
+  },
+  "include": [
+    "./**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.spec.ts",
+    "*.js"
+  ]
+}
