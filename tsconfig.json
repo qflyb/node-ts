@@ -7,6 +7,7 @@
     "strict": true,
     "alwaysStrict": true,
     "sourceMap": false,
+    "experimentalDecorators": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
     "pretty": true,

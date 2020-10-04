@@ -20,11 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7f0cdda7-f504-42e4-be46-b554255b47ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +56,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="prettierjs.PrettierConfiguration.Package" value="E:\study\node-ts\node_modules\prettier" />
-    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="E:\study\node-ts\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -89,7 +88,7 @@
       <workItem from="1601462840340" duration="615000" />
       <workItem from="1601463462255" duration="10000" />
       <workItem from="1601792765006" duration="8726000" />
-      <workItem from="1601815907867" duration="5913000" />
+      <workItem from="1601815907867" duration="7699000" />
     </task>
     <task id="LOCAL-00001" summary="feat：增加express">
       <created>1601815959632</created>
@@ -105,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601816478078</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix：将eslint规则更换为prettier">
+      <created>1601824660888</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601824660888</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,13 +131,22 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat：增加express" />
     <MESSAGE value="feat：增加eslint" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat：增加eslint" />
+    <MESSAGE value="fix：将eslint规则更换为prettier" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix：将eslint规则更换为prettier" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="191" y="51" width="1351" height="880" key="CommitChangelistDialog2" timestamp="1601816477287">
+    <state x="784" y="384" key="#Custom_Plugin_Repositories" timestamp="1601826049002">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="191" y="51" width="1351" height="880" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1601816477287" />
+    <state x="784" y="384" key="#Custom_Plugin_Repositories/0.0.1920.1040@0.0.1920.1040" timestamp="1601826049002" />
+    <state x="731" y="237" key="#HTTP_Proxy" timestamp="1601826199581">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="731" y="237" key="#HTTP_Proxy/0.0.1920.1040@0.0.1920.1040" timestamp="1601826199581" />
+    <state x="191" y="51" width="1351" height="880" key="CommitChangelistDialog2" timestamp="1601824659838">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="191" y="51" width="1351" height="880" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1601824659838" />
     <state width="1877" height="282" key="GridCell.Tab.0.bottom" timestamp="1601815879496">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -152,13 +167,13 @@
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1601815879496" />
     <state width="1899" height="285" key="GridCell.Tab.0.right/0.0.1920.1050@0.0.1920.1050" timestamp="1601463455559" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1601820727213">
+    <state x="307" y="163" key="SettingsEditor" timestamp="1601826457770">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601820727213" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1601816015720">
+    <state x="307" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1601826457770" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1601824665607">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601816015720" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1601824665607" />
   </component>
 </project>
